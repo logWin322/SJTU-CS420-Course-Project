@@ -1,6 +1,10 @@
 # SJTU-CS420-Course-Project
 This is the course project (FER2013) for SJTU CS420 machine learning. 
 
+## Team members
+516030910356 黄泽人
+516030910354 傅彦钧
+
 ## Requirements
 * pytorch & torchvision
 * numpy
