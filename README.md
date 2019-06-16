@@ -27,5 +27,9 @@ This is the course project for SJTU CS420 machine learning.
 ### Train a more robust model against the attacks (additional assignment)
 * python adv_train.py
 
+### To directly test a trained model
+* Download our trained models from https://drive.google.com/open?id=11vqBwhcnyz1ZviLLiQrAS9YNibZ-RdJi and put in the saved_model folder. 
+* Write a simple python code to load the model (or slightly modify train.py) and run the PublicTest or PrivateTest function.
+
 ## Acknowledgement
 Thanks to BorealisAI and Wujie1010 for providing some useful tools and codes. We have referenced some of their work and codes.
