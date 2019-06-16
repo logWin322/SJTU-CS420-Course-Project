@@ -28,7 +28,7 @@ This is the course project for SJTU CS420 machine learning.
 * python adv_train.py
 
 ### To directly test a trained model
-* Download our trained models from https://drive.google.com/open?id=11vqBwhcnyz1ZviLLiQrAS9YNibZ-RdJi and put in the saved_model folder. 
+* Download our trained models from https://drive.google.com/open?id=11vqBwhcnyz1ZviLLiQrAS9YNibZ-RdJi. Enter the saved_model folder and put the downloaded model files in the corresponding FER2013_MODEL folder. 
 * Write a simple python code to load the model (or slightly modify train.py) and run the PublicTest or PrivateTest function.
 
 ## Acknowledgement
