@@ -24,10 +24,8 @@ This is the course project for SJTU CS420 machine learning.
 * The output includes the model accuracy on public test set and private test set. 
 ### Attack sampled images (additional assignment)
 * python attack_sampled_images.py
-* The results will be stored.
 ### Train a more robust model against the attacks (additional assignment)
 * python adv_train.py
-* The trained model will be stored in the saved_models folder.
 
 ## Acknowledgement
 Thanks to BorealisAI and Wujie1010 for providing some useful tools and codes. We have referenced some of their work and codes.
