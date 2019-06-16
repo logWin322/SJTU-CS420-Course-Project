@@ -1,14 +1,22 @@
 # SJTU-CS420-Course-Project
-This is the course project for SJTU CS420 machine learning. 
+This is the course project for SJTU CS420 machine learning.  
 
 ## Requirements
 * pytorch & torchvision
 * numpy
 * advertorch
 
+## About codes
+* fer.py: load the dataset.
+* preprocess_fer2013.py: preprocess the fer2013 dataset.
+* utils.py: some simple functions using in the training phase.
+* train.py: train the CNN-based model on FER2013. (for the basic assignment)
+* attack_sampled_images.py: sample 5 images from the dataset and carry some attacks and defenses.
+* adv_train.py: use data augmenting to train a more robust model against adversarial attacks.
+
 ## Usage
 ### Preprocessing
-* Preprocess the dataset. Put fer2013.csv in the data folder. 
+* Put fer2013.csv in the data folder. 
 * python preprocess_fer2013.py.
 ### Train and test a model (basic assignment)
 * python train.py --model VGG19 --bs 64. 
